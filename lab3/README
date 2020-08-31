@@ -1,0 +1,40 @@
+Both insertion sort and merge sort work.
+
+Analysis:
+
+Insertion Sort:
+
+Insertion sort has complexity of O(n^2) for worst case, O(n) for best case, and in between O(n^2) and O(n) for average case.
+
+Best case: 
+	Comparisons: n-1
+	Swaps: 0
+	Copy operations: 2n
+Average Case:
+	Comparisons: n(n-1)/2
+	Swaps: n-3
+	Copy operations: 2n
+Worst Case:
+	Comparisons: n(n-1)/2
+	Swaps: n(n-1)/2
+	Copy operations: 2n
+
+
+
+
+Merge Sort:
+
+Merge sort has complexity of O(nlogn) for best, worst, and average case.
+
+Best case: 
+	Comparisons: (0.091n*n2) + 4.73n - 5.042) 
+	Swaps: 0
+	Copy operations: 0
+Average Case:
+	Comparisons: (0.091n*n2) + 4.73n - 5.042) 
+	Swaps: 0
+	Copy operations: 0
+Worst Case:
+	Comparisons: (0.091n*n2) + 4.73n - 5.042) 
+	Swaps: 0
+	Copy operations: 0

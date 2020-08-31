@@ -1,0 +1,52 @@
+Summarize your lab:
+
+  Part 1:
+     Works  Yes or No
+	
+	Yes
+     
+  Part 2:
+     Works  Yes or No
+
+	Yes
+     
+  Part 3:
+     Works  Yes or No
+
+	Yes
+     
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:
+ 
+ I used open addressing with linear probing. So I would first map the key directly to its corresponding 
+index and if there was a collision, I increment the index by one and store it there.
+ 
+ 
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+
+ I used the djb2 hash function. For converting a string to integer, I just used standard ASCII values.
+ 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER:
+
+I would look for the ">" and if the character before "/", I would add it to the hastable.
+  

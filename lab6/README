@@ -1,0 +1,17 @@
+Everything works as intented.
+
+Just some remarks:
+
+-When you input numbers you have to press CTRL+D to get the last input for some reason, I'm not sure why.
+
+-Also I used math.h library in this project for the intHeap.c, I compile it with adding the -lm.
+
+commands I use to compile:
+
+gcc -g -Wall -lm -c -o main.o main.c
+gcc -g -Wall -lm -c -o intHeap.o intHeap.c
+gcc -g -Wall -lm -c -o intStack.o intStack.c
+gcc -g -Wall -lm -o heap main.o intHeap.o intStack.o
+
+-To input numbers to add to Heap, when I made it I input them in one line (i.e., 30 15 8 10 16 20 50),
+I think it works if you enter in sepearete lines too but that is how I did it.
